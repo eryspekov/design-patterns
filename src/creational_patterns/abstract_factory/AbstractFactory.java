@@ -9,7 +9,7 @@ abstract class AbstractFactory {
         switch (type) {
             case OUT:
                 factory = OUTCOME_TOOLKIT;
-                break;
+                    break;
             case IN:
                 factory = INCOME_TOOLKIT;
                 break;

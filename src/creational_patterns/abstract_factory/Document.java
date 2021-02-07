@@ -2,7 +2,7 @@ package creational_patterns.abstract_factory;
 
 import java.time.LocalDateTime;
 
-abstract class Document {
+public abstract class Document {
 
     protected String code;
     protected LocalDateTime createdDate;
@@ -10,5 +10,9 @@ abstract class Document {
 
     public enum Type {
         IN, OUT
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
     }
 }
