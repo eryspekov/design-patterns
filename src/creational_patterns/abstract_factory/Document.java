@@ -15,4 +15,8 @@ public abstract class Document {
     public void setAmount(Integer amount) {
         this.amount = amount;
     }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 }
