@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24e03c60-e116-4b32-9cc4-8ed4a2f5c204" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/DocumentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/IncomePaymentService.java" afterDir="false" />
+    <list default="true" id="24e03c60-e116-4b32-9cc4-8ed4a2f5c204" name="Default Changelist" comment="Factory method">
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/LegalPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/abstract_factory/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstract_factory/Document.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +77,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,7 +123,8 @@
       <workItem from="1612721007275" duration="4786000" />
       <workItem from="1612726374068" duration="466000" />
       <workItem from="1613843162085" duration="1046000" />
-      <workItem from="1619456961035" duration="2864000" />
+      <workItem from="1619456961035" duration="5379000" />
+      <workItem from="1625051347055" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="abstract factory">
       <created>1612722577110</created>
@@ -129,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612722577110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory method">
+      <created>1619459971715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619459971715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="abstract factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract factory" />
+    <MESSAGE value="Factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory method" />
   </component>
 </project>
